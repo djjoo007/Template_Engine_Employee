@@ -13,7 +13,7 @@ const Choice = require("inquirer/lib/objects/choice");
 
 let teamArray = [];
 
-// Prompt for Menue
+// Prompt Menu
 function promptMenu() {
     inquirer.prompt ([
         {
