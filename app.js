@@ -50,7 +50,7 @@ function promptEngineer() {
         {
             type: "input",
             name: "id",
-            message: "What is your ID",
+            message: "Enter your ID Number:",
         },
         {
             type: "input",
@@ -61,7 +61,7 @@ function promptEngineer() {
         const engineer = new Engineer(answer.name, answer.id, answer.email, answer.github);
         teamArray.push(engineer);
         promptMenu();
-    }) 
+    }); 
 }
 
 function promptManager() {
@@ -79,7 +79,7 @@ function promptManager() {
         {
             type: "input",
             name: "id",
-            message: "What is your ID",
+            message: "Enter your ID Number:",
         },
         {
             type: "input",
@@ -122,6 +122,24 @@ function promptIntern() {
     }); 
 }
 
+function teamMembers() {
+    inquirer.prompt ([
+        {
+        type: "list",
+        name: "type",
+        message: "Which type of team member would you like to add?",
+        choices: [
+            "Engineer",
+            "Intern",
+            "I do not want to add any more team members"
+        ]
+        }
+    ]) .then(answers => {
+        const teamMembers = new teamMembers()
+    })
+
+
+}
 
 
 // Write code to use inquirer to gather information about the development team members,
