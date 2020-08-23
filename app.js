@@ -22,7 +22,7 @@ function promptMenu() {
             message: "What would like to do today?",
             choices: ["Create Engineer", "Create Manager", "Create Intern", "Build Team"]
         }
-    ]) .then(response => {
+    ]) .then(answer => {
         if (answer.option === "Create Engineer") {
             promptEngineer();
         } else if (answer.option === "Create Manager") {
@@ -57,7 +57,7 @@ function promptEngineer() {
             name: "username",
             message: "What is your GitHub Username?"
         },
-    ]) .then(answers => {
+    ]) .then(answer => {
         const engineer = new Engineer(answer.name, answer.id, answer.email, answer.github);
         teamArray.push(engineer);
         promptMenu();
@@ -86,7 +86,7 @@ function promptManager() {
             name: "office",
             message: "Enter your Office Number:"
         },
-    ]) .then(answers => {
+    ]) .then(answer => {
         const manager = new Manager(answer.name, answer.id, answer.email, answer.office);
         teamArray.push(manager);
         promptMenu();
@@ -115,32 +115,21 @@ function promptIntern() {
             name: "school",
             message: "What is the name of your school?"
         },
-    ]) .then(answers => {
+    ]) .then(answer => {
         const intern = new Intern(answer.name, answer.id, answer.email, answer.school);
-        teamArray.push(school);
+        teamArray.push(intern);
         promptMenu();
     }); 
 }
 
-function teamMembers() {
-    inquirer.prompt ([
-        {
-        type: "list",
-        name: "type",
-        message: "Which type of team member would you like to add?",
-        choices: [
-            "Engineer",
-            "Intern",
-            "I do not want to add any more team members"
-        ]
-        }
-    ]) .then(answers => {
-        const teamMembers = new teamMembers()
-    })
-
-
+function promptBuildTeam() {
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
+    fs.writeFileSync(outputPath, render(teamArray), "utf-8");
 }
 
+promptMenu();
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
