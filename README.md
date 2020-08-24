@@ -30,7 +30,10 @@ Images Folder:
 - images/npmruntest.mp4
 - images/node_demo.mp4
 
-<!-- ![](images/npmruntest.gif) -->
-
 ![](images/node_demo.gif)
+
+
+![](images/npmruntest.gif)
+
+
 
