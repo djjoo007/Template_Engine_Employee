@@ -54,7 +54,7 @@ function promptEngineer() {
         },
         {
             type: "input",
-            name: "username",
+            name: "github",
             message: "What is your GitHub Username?"
         },
     ]) .then(answer => {
@@ -122,6 +122,7 @@ function promptIntern() {
     }); 
 }
 
+// Build Team and render to HTML
 function promptBuildTeam() {
     if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR)
@@ -129,6 +130,7 @@ function promptBuildTeam() {
     fs.writeFileSync(outputPath, render(teamArray), "utf-8");
 }
 
+//callback promptMenu
 promptMenu();
 
 // Write code to use inquirer to gather information about the development team members,
