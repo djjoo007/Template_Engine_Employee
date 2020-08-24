@@ -10,7 +10,19 @@ When the user has completed building the team, the application will create an HT
 
 
 ## Technology
-node.js
-npm packages (jest, inquirer)
+
+Utilized:
+- node.js
+- npm packages (jest, inquirer)
 
 ## Demonstration
+
+node app.js demonstration:
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1BtchK6GwBRmsuqUVUgOFqjPEcTpUY63M/view" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
+npm run test demonstration:
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/11W857dxMrwLW9wUdwGgqqhfV2vBZQchR/view" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
