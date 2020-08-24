@@ -26,15 +26,15 @@ HTML Screenshot:
 
 ## Links to Video Demonstration
 
-Video Demonstration are located in the Images Folder:
+Video Demonstrations are located in the Images Folder:
 - images/npmruntest.mp4
 - images/node_demo.mp4
 
-  ### node app.js
+### node app.js
 
 ![](images/node_demo.gif)
 
-  ### npm run test
+### npm run test
 
 ![](images/npmruntest.gif)
 
