@@ -16,13 +16,20 @@ Utilized:
 - node.js
 - npm packages (jest, inquirer)
 
-## Demonstration and Screenshot
+## Screenshot
 node app.js demonstration:
-![](images/node_demo.gif)
-
-npm run test demonstration:
-![](images/npmruntest.gif)
 
 HTML Screenshot:
+
 ![](images/MyTeamHTML.jpg)
+
+## Links to Video Demonstration
+
+Images Folder:
+- images/npmruntest.mp4
+- images/node_demo.mp4
+
+![](images/npmruntest.gif)
+
+![](images/node_demo.gif)
 
