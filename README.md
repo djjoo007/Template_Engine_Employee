@@ -24,11 +24,7 @@ HTML Screenshot:
 
 ![](images/MyTeamHTML.jpg)
 
-## Links to Video Demonstration
-
-Video Demonstrations are located in the Images Folder:
-- images/npmruntest.mp4
-- images/node_demo.mp4
+## Video Demonstration
 
 ### node app.js
 
