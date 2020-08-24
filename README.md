@@ -17,7 +17,7 @@ Utilized:
 
 ## Demonstration
 
-![](images/MyTeamHTML)
+![](images/MyTeamHTML.jpg)
 
 node app.js demonstration:
 https://drive.google.com/file/d/1BtchK6GwBRmsuqUVUgOFqjPEcTpUY63M/view
