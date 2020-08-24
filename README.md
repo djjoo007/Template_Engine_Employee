@@ -8,7 +8,9 @@ Using Node CLI, the application will prompt the user for information about the t
 
 When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
 
-  Run 
+- Run node app.js
+- Answer the prompted questions.
+- Go to the output folder and choose team.html.  Open in the default browser which will show the results of the chosen team.
 
 ## Technology
 
@@ -17,7 +19,6 @@ Utilized:
 - npm packages (jest, inquirer)
 
 ## Screenshot
-node app.js demonstration:
 
 HTML Screenshot:
 
@@ -29,7 +30,7 @@ Images Folder:
 - images/npmruntest.mp4
 - images/node_demo.mp4
 
-![](images/npmruntest.gif)
+<!-- ![](images/npmruntest.gif) -->
 
 ![](images/node_demo.gif)
 
