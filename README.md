@@ -16,11 +16,12 @@ Utilized:
 - npm packages (jest, inquirer)
 
 ## Demonstration
-
-![](images/MyTeamHTML.jpg)
-
 node app.js demonstration:
-https://drive.google.com/file/d/1BtchK6GwBRmsuqUVUgOFqjPEcTpUY63M/view
+![](images/node_demo.mp4)
 
 npm run test demonstration:
-https://drive.google.com/file/d/11W857dxMrwLW9wUdwGgqqhfV2vBZQchR/view
+![](images/npmruntest.mp4)
+
+HTML Screenshot:
+![](images/MyTeamHTML.jpg)
+
